@@ -1,0 +1,211 @@
+body {
+    font-family: "roboto", serif, sans-serif;
+    color: #212121;
+}
+
+:root {
+    --white-text: #FFFFFF;
+}
+
+:root {
+    --grey-text: #757575;
+}
+:root {
+    --background-color:#2F303A;
+}
+
+:root {
+    --highlighted-text: #2196F3;
+}
+
+.link-decor {
+    text-decoration: none;
+}
+
+.list-style {
+    list-style: none;
+}
+
+.link-hover:hover,
+.link-hover:focus {
+    color: var(--highlighted-text);
+}
+
+.logo-name1 {
+    color: var(--highlighted-text);
+}
+
+.logo-name2 {
+    color: #000000;
+}
+
+.logo-name1,
+.logo-name2,
+.logo-name3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header-nav-contacts-style {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-nav-style {
+    color: #212121;
+}
+
+.header-nav-style-active {
+    color: var(--highlighted-text);
+}
+
+.header-contacts-style {
+    color: var(--grey-text);
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-text);
+    background-color: var(--background-color);
+}
+
+.btn-order {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-text);
+}
+
+.h2-hide {
+    display: none;
+}
+
+.competences-item {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.competences-details {
+    font-size: 14px;
+    line-height: 1.71;   
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+}
+
+.section-titles {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-roles {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+}
+
+.logo-name3 {
+    color: var(--white-text);
+}
+
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.address {
+    color: var(--white-text);
+}
+
+.email-tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer {
+    background-color: var(--background-color);
+}
+
+.out-team {
+    background-color: #F5F4FA;
+}
+
+/*------------------------------Страница портфолио-------------------------------------------*/
+
+.pointer:hover {
+    cursor: pointer;
+    background-color: var(--highlighted-text);
+    color: var(--white-text);
+}
+
+.project-color {
+    color: #212121;
+}
+
+.project-tepe-color {
+    color: var(--grey-text);
+}
+
+.pointer-order:hover {
+    background-color: #188CE8;
+}
+
+.pointer-order {
+    background-color: var(--highlighted-text);
+}
+
+.btn-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+}
+
+.project-type {
+    font-size: 16px;
+    line-height: 1.88;    
+    letter-spacing: 0.03em;
+    color: var(--grey-text);
+}
