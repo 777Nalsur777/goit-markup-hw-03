@@ -16,8 +16,33 @@ ol {
     padding-left: 0;
 }
 
-.container {
+.logo {
+    margin-right: 63px;
+}
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+}
+
+img {
+    display: block;
 }
 
 :root {
@@ -74,6 +99,27 @@ ol {
     letter-spacing: 0.02em;
 }
 
+.nav-item-margin {
+    margin-right: 50px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav-item-margin-last {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.nav-item-padding-last {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 50px;
+}
+
+.header-mail-tel {
+    margin-left: auto;
+}
+
 .header-nav-style {
     color: #212121;
 }
@@ -97,14 +143,18 @@ ol {
     background-color: var(--background-color);
 }
 
+.hero-txt {
+    padding: 200px 0px 280px;
+}
+
 .btn-order {
+    min-width: 200px;
+    height: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;   
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-text);

@@ -19,25 +19,27 @@
     <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/b59ec0d3d8654cbb6843bc9ea45aef5f1d680108/modern-normalize.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
+            <a href="./index.html" class="logo link-decor"><span class="logo-name1">Web</span><span class="logo-name2">Studio</span></a>
             <nav>
-                <a href="./index.html" class="link-decor"><span class="logo-name1">Web</span><span class="logo-name2">Studio</span></a>
-                <ul class="list-style">
-                    <li><a href="./index.html" class="link-decor link-hover header-nav-style-active header-nav-contacts-style">Студия</a></li>
-                    <li><a href="./portfolio.html" class="link-decor link-hover header-nav-style header-nav-contacts-style ">Портфолио</a></li>
-                    <li><a href="" class="link-decor link-hover header-nav-style header-nav-contacts-style ">Контакты</a></li>
+                <ul class="list-style nav-items">
+                    <li><a href="./index.html" class="nav-item-margin link-decor link-hover header-nav-style-active header-nav-contacts-style">Студия</a></li>
+                    <li><a href="./portfolio.html" class="nav-item-margin link-decor link-hover header-nav-style header-nav-contacts-style ">Портфолио</a></li>
+                    <li><a href="" class="nav-item-margin-last link-decor link-hover header-nav-style header-nav-contacts-style ">Контакты</a></li>
                 </ul>
             </nav>
-                <ul class="list-style">
+            <div class="header-mail-tel">
+                <ul class="list-style nav-items">
                     <li><a href="mailto:info@devstudio.com" class="link-hover link-decor header-contacts-style header-nav-contacts-style">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111" class="link-hover link-decor header-contacts-style header-nav-contacts-style">+38 096 111 11 11</a></li>
+                    <li><a href="tel:+380961111111" class="nav-item-padding-last link-hover link-decor header-contacts-style header-nav-contacts-style">+38 096 111 11 11</a></li>
                 </ul>
             </div>
+        </div>
     </header>
     <main>
         <section class="hero-text">
-             <div class="container">
+             <div class="container hero-txt">
                 <h1>
                     Эффективные решения для вашего бизнеса
                 </h1>
