@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "roboto", serif, sans-serif;
     color: #212121;
@@ -158,10 +162,40 @@ img {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-text);
+    margin-top: 30px;
+    border-radius: 4px;
 }
 
 .h2-hide {
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.our-advantages {
+    display: flex;
+    margin: 94px 0px;
+}
+
+.our-works-list {
+    display: flex;
+    margin: 50px 0px 94px 0;
+}
+
+.advantages-items:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-works-items:not(:last-child) {
+    margin-right: 30px;
 }
 
 .competences-item {
@@ -170,6 +204,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 .competences-details {
@@ -193,6 +228,7 @@ text-transform: uppercase;
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 10px;
 }
 
 .team-roles {
@@ -201,6 +237,7 @@ text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--grey-text);
+    padding-bottom: 30px;
 }
 
 .logo-name3 {
@@ -226,8 +263,49 @@ footer {
     background-color: var(--background-color);
 }
 
+.our-team-title {
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
 .out-team {
     background-color: #F5F4FA;
+}
+
+.our-team-list {
+    display: flex;
+}
+
+.our-team-imgs-descriptions {
+    background-color: #FFFFFF;
+    margin-bottom: 94px;
+}
+
+.our-team-imgs-descriptions:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-team-imgs {
+    padding-bottom: 30px;
+}
+
+.logo-footer {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+address {
+    display: block;
+}
+
+.address-gaps:not(:last-child) {
+    padding-bottom: 9px;
+}
+
+.address-gaps:last-child {
+    display: block;
+    padding-bottom: 60px;
 }
 
 /*------------------------------Страница портфолио-------------------------------------------*/
