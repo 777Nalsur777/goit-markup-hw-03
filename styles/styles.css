@@ -32,8 +32,6 @@ ol {
 }
 
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .header-container {
@@ -47,6 +45,11 @@ ol {
 
 .nav-items {
     display: flex;
+    align-items: center;
+}
+
+.nav-items-li {
+    margin-right: 50px;
 }
 
 img {
@@ -108,9 +111,9 @@ img {
 }
 
 .nav-item-margin {
-    margin-right: 50px;
     padding-top: 32px;
     padding-bottom: 32px;
+    display: block;
 }
 
 .nav-item-margin-last {
@@ -121,7 +124,10 @@ img {
 .nav-item-padding-last {
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 50px;
+}
+
+.header-mail-tel-li {
+    margin-left: 50px;
 }
 
 .header-mail-tel {
@@ -149,17 +155,13 @@ img {
     text-transform: uppercase;
     color: var(--white-text);
     background-color: var(--background-color);
+    padding: 200px 0px 200px;
 }
 
 .our-team-section {
     background-color: #F5F4FA;
 }
     
-
-.hero-txt {
-    padding: 200px 0px 280px;
-}
-
 .btn-order {
     min-width: 200px;
     height: 50px;
@@ -190,17 +192,28 @@ img {
 }
 
 .our-advantages {
-    display: flex;
     padding: 94px 0px;
+}
+
+.our-advantages-list {
+    display: flex;
+}
+
+.our-works {
+    padding-bottom: 94px;
+    margin-top: 50px;
 }
 
 .our-works-list {
     display: flex;
-    padding: 50px 0px 94px 0;
 }
 
 .advantages-items:not(:last-child) {
     margin-right: 30px;
+}
+
+.advantages-items {
+    width: 270px;
 }
 
 .our-works-items:not(:last-child) {
@@ -213,7 +226,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-padding-bottom: 10px;
+margin-bottom: 10px;
 }
 
 .competences-details {
